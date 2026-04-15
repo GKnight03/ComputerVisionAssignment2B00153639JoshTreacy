@@ -19,13 +19,6 @@ batch_size = 512
 num_classes = 10
 epochs = 10
 
-# Data augmentation and normalization layers
-data_augmentation = tf.keras.Sequential([
-    tf.keras.layers.RandomFlip("horizontal"),
-    tf.keras.layers.RandomRotation(0.1),
-    tf.keras.layers.RandomZoom(0.1),
-])
-normalization_layer = tf.keras.layers.Rescaling(1./255)
 
 with tf.device('/cpu:0'):
     # the data, shuffled and split between train and test sets
