@@ -1,0 +1,67 @@
+# 🔹 Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environments
+
+cv_env/
+venv/
+env/
+.venv/
+
+# 🔹 Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# 🔹 Dataset (VERY IMPORTANT — don’t upload 1.1GB)
+
+chest_xray/
+data/
+datasets/
+
+# 🔹 OS files
+
+.DS_Store
+Thumbs.db
+
+# 🔹 Logs
+
+*.log
+
+# 🔹 Model files (can be large)
+
+*.h5
+*.keras
+*.ckpt
+*.pb
+
+# 🔹 TensorBoard logs
+
+logs/
+
+# 🔹 Temporary files
+
+*.tmp
+*.temp
+
+# 🔹 IDE files
+
+.vscode/
+.idea/
+
+# 🔹 Environment variables
+
+.env
+
+# 🔹 Python build files
+
+build/
+dist/
+*.egg-info/
+
+# 🔹 Misc
+
+*.csv
+*.xlsx
